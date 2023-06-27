@@ -93,11 +93,7 @@ header div h2 {
     font-size: 1rem;
 }
 
-.intro-text {
-    margin: 2rem;
-}
-
-.intro-img img {
+.intro-text, .intro-img {
     margin: 2rem;
 }
 
@@ -110,11 +106,6 @@ header div h2 {
     header {
         height: 130vh;
     }
-
-    .intro-box {
-        margin-top: 2rem;
-    }
-
     .intro-box {
         display: flex;
         flex-direction: column-reverse;
@@ -123,21 +114,34 @@ header div h2 {
     }
 }
 
-
 /* About */
 
-.about-me {
+.about {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
-.about-me div {
-    margin: 0rem 30rem;
+.about-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 2rem;
 }
 
-.Projects {
+/* Projects */
+
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contact */
+
+.contact {
     display: flex;
     justify-content: center;
     align-items: center;
