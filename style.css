@@ -3,60 +3,86 @@ body {
     margin: 0;
     padding: 0;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 30;
+    position: fixed;
+    width: 100%;
 }
+
 nav h1 {
     margin: 0rem 2rem;
 }
+
 nav h1 a {
     text-decoration: none;
     color: black;
 }
+
 nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 nav ul li {
     list-style: none;
     margin: 0rem 2rem;
 }
+
 nav ul li a {
     text-decoration: none;
     color: black;
 }
+
+/* Header */
+
 header {
-    height: 90vh;
+    height: 100vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0rem 20rem;
 }
+
 header div h1 {
     font-size: 2.5rem;
 }
+
 header div h2 {
     font-size: 1rem;
 }
+
 .intro-text {
     margin: 0rem 4rem;
 }
+
 .intro-img img {
     margin-right: 8rem;
 }
+
 .intro-img img {
     border-radius: 10rem;
     height: 20rem;
 }
+
 .about-me {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
+
 .about-me div {
     margin: 0rem 30rem;
+}
+
+.Projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
