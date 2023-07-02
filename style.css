@@ -24,7 +24,7 @@ nav h1 {
 
 nav h1 a {
     text-decoration: none;
-    color: rgb(0, 112, 240);
+    color: rgb(12, 84, 167);
 }
 
 nav ul {
@@ -95,7 +95,7 @@ header {
 }
 
 .intro-text label {
-    color: rgb(0, 112, 240);
+    color: rgb(12, 84, 167);
 }
 
 .intro-text h1 {
@@ -108,6 +108,21 @@ header {
     color: rgb(53, 53, 53);
     margin: 0;
     padding: 0;
+}
+
+.intro-text div {
+    margin: 1rem 0rem;
+}
+
+.intro-text div button {
+    cursor: pointer;
+    padding: .5rem 1.5rem;
+}
+
+.intro-text div button a {
+    color: rgb(12, 84, 167);
+    text-decoration: none;
+    font-size: 1rem;
 }
 
 .intro-text, .intro-img {
@@ -142,7 +157,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
 }
 
 .about-box {
@@ -152,13 +167,52 @@ header {
     margin: 0rem 2rem;
 }
 
-/* Projects */
+/* Work box-shadow: 2rem 3.5rem 0rem rgb(8, 36, 68); */
 
 .projects {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 150vh;
+}
+
+.work-box {
+    margin: 7rem 15rem;
+}
+
+.projetcs-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 4rem;
+}
+
+.projetcs-box img {
+    max-width: 27rem;
+    height: 16rem;
+    box-shadow: .4rem .9rem .4rem rgb(7, 17, 51);
+}
+
+.projetcs-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.projects-info {
+    margin: 0rem 5rem;
+}
+
+.projects-info button {
+    cursor: pointer;
+    padding: .5rem 1rem;
+}
+
+.projects-info button a {
+    text-decoration: none;
+    color: rgb(12, 84, 167);
 }
 
 /* Contact */
