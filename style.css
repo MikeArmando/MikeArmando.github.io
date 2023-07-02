@@ -116,13 +116,22 @@ header {
 
 .intro-text div button {
     cursor: pointer;
-    padding: .5rem 1.5rem;
+    padding: .5rem 0rem;
+    border: 2px solid rgb(12, 84, 167);
+    border-radius: .2rem;
 }
 
 .intro-text div button a {
     color: rgb(12, 84, 167);
     text-decoration: none;
     font-size: 1rem;
+    padding: .6rem 1.6rem;
+    transition: all .3s;
+}
+
+.intro-text div button a:hover {
+    background-color: rgb(8, 41, 79);
+    color: white;
 }
 
 .intro-text, .intro-img {
@@ -206,14 +215,24 @@ header {
 }
 
 .projects-info button {
+    border: 2px solid rgb(12, 84, 167);
+    border-radius: .2rem;
     cursor: pointer;
-    padding: .5rem 1rem;
+    padding: .5rem 0rem;
 }
 
 .projects-info button a {
     text-decoration: none;
     color: rgb(12, 84, 167);
+    padding: .5rem 1rem;
+    transition: all .3s;
 }
+
+.projects-info button a:hover {
+    background-color: rgb(8, 41, 79);
+    color: white;
+}
+
 
 /* Contact */
 
