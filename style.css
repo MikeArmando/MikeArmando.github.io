@@ -16,6 +16,7 @@ nav {
     z-index: 30;
     position: fixed;
     width: 100%;
+    background-color: white;
 }
 
 nav h1 {
@@ -35,7 +36,7 @@ nav ul {
 
 nav ul li {
     list-style: none;
-    margin: 0rem 2rem;
+    margin: 0rem 1.5rem;
 }
 
 nav ul li a {
@@ -225,7 +226,11 @@ header {
 }
 
 .work-box {
-    margin: 7rem 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+    max-width: 70rem;
 }
 
 .projetcs-box {
@@ -236,8 +241,8 @@ header {
 }
 
 .projetcs-box img {
-    max-width: 37rem;
-    height: 23rem;
+    max-width: 30rem;
+    height: 20rem;
     border-radius: .7rem;
 }
 
@@ -246,10 +251,13 @@ header {
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    padding: 1rem;
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: .7rem;
 }
 
 .projects-info {
-    margin: 0rem 5rem;
+    margin: 0rem 4rem;
 }
 
 .projects-info p {
@@ -275,7 +283,7 @@ header {
     color: white;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1010px) {
 
     .projetcs-content {
         display: flex;
@@ -290,10 +298,18 @@ header {
         flex-direction: column-reverse;
     }
 
+    .projects-info {
+        text-align: center;
+        max-width: 40rem;
+    }
+}
+
+@media (max-width: 800px) {
+
     .projetcs-box img {
-        max-width: 19rem;
+        max-width: 17.5rem;
         height: 12rem;
-        border-radius: .7rem;
+
     }
 
     .projects-info {
