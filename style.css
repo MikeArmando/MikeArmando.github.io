@@ -238,7 +238,6 @@ header {
 .projetcs-box img {
     max-width: 37rem;
     height: 23rem;
-    border: 2px solid;
     border-radius: .7rem;
 }
 
@@ -284,6 +283,11 @@ header {
         justify-content: center;
         align-items: center;
         gap: 2rem;
+    }
+
+    .projetcs-content-column-revers {
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     .projetcs-box img {
