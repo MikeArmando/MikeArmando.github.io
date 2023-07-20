@@ -196,25 +196,6 @@ header {
     }
 }
 
-/* About */
-
-.about {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.about-box label {
-    color: rgb(53, 53, 53);
-}
-
-.about-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0rem 2rem;
-}
 
 /* Work */
 
@@ -223,6 +204,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 6rem;
 }
 
 .work-box {
@@ -316,6 +298,28 @@ header {
         margin: 0rem;
     }
 }
+
+
+/* About */
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.about-box label {
+    color: rgb(53, 53, 53);
+}
+
+.about-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 2rem;
+}
+
 
 /* Contact */
 
