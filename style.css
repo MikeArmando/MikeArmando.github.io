@@ -34,12 +34,12 @@ nav ul {
     align-items: center;
 }
 
-nav ul li {
+nav li {
     list-style: none;
     margin: 0rem 1.5rem;
 }
 
-nav ul li a {
+nav li a {
     text-decoration: none;
     color: black;
     font-weight: 600;
@@ -100,8 +100,17 @@ li:hover:before, li:focus:before, li:active:before {
         display: flex;
     }
 
-    nav ul {
+    .navbar-links {
         display: none;
+        flex-direction: column;
+        position: absolute;
+        background-color: rgb(210, 210, 210);
+        width: 55%;
+        height: 100vh;
+        top: -1rem;
+        right: 0;
+        justify-content: center;
+        align-items: center;
     }
 }
 
