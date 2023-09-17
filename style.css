@@ -186,7 +186,7 @@ header {
 
 @media (max-width: 800px) {
     header {
-        height: 140vh;
+        padding: 10rem 0;
     }
 
     .intro-box {
@@ -232,7 +232,7 @@ header {
 }
 
 .projetcs-box img {
-    max-width: 30rem;
+    max-width: 32rem;
     height: 20rem;
     border-radius: .7rem;
 }
@@ -295,9 +295,8 @@ header {
 }
 
 @media (max-width: 800px) {
-
     .projetcs-box img {
-        max-width: 17.5rem;
+        max-width: 20rem;
         height: 12rem;
 
     }
