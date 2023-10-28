@@ -22,7 +22,7 @@ Here are some of my projects.
 - Description: This is a E-commerce website
 
 - GitHub Repository: [Link](https://github.com/MikeArmando/E-commerce)
-- Live Demo: [Link](https://mikearmando.github.io/E-commerce/)
+- Live Demo: [Link](https://mikearmando.github.io/E-Commerce/)
 
 - Technologies Used: html, css and javascript.
 
