@@ -2,6 +2,8 @@
 
 Welcome to my portfolio, This repository showcases my work, skills, and achievements as a developer.
 
+- Live Demo: [Portfolio](https://mikearmando.github.io/)
+
 ## Table of Contents
 
 - [About Me](#about-me)
